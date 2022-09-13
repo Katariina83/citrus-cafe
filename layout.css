@@ -1,43 +1,65 @@
+/*
+Mobile first!
+*/
+
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem;
 }
 .container {
-
 }
 #logo {
-    background-color: #83C05B;
-    padding: 5rem;
+  background-color: #83c05b;
+  padding: 5rem;
 }
 nav {
-
 }
 .maincontent {
-
 }
 #vision {
-
-}
-section {
-
+  color: black;
+  font-size: 1.2rem;
 }
 figure {
-
+  display: none;
 }
-#boxes{
-
+#boxes {
 }
 #specials {
-
 }
 #events {
-
 }
 #news {
-
 }
 footer {
-    
+}
+
+/* Media query, tablet näkymä */
+
+@media only screen and (min-width: 426px) {
+  body {
+  }
+  #vision {
+    background-color: #efecdd;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  #vision section {
+    flex-basis: 0;
+    flex-grow: 3;
+    padding: 1rem;
+  }
+  figure {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  figure img {
+    width: 100%;
+  }
 }
