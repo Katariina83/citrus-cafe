@@ -1,8 +1,13 @@
+/*
+Mobile first!
+*/
+
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem;
 }
 .container {
     background-color: #83C05B;
@@ -46,29 +51,65 @@ a:hover {
 }
 
 .maincontent {
-
 }
 #vision {
-
+  color: black;
+  font-size: 1.2rem;
 }
-section {
-
+h1, h2, h3 {
+    background-color: #CBCBCB;
+    font-size: 1.1rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 figure {
-
+  display: none;
 }
-#boxes{
-
+#boxes {
 }
-#specials {
-
+.fa-angle-right {
+    float: right;    
 }
-#events {
 
+#specials img {
+    width: 400px;
+    margin: 10px;
+}
+#events img {
+    width: 400px;
+    margin: 10px;
 }
 #news {
-
+}
+p {
+    margin: 10px;
 }
 footer {
-    
+}
+
+/* Media query, tablet näkymä */
+
+@media only screen and (min-width: 426px) {
+  body {
+  }
+  #vision {
+    background-color: #efecdd;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  #vision section {
+    flex-basis: 0;
+    flex-grow: 3;
+    padding: 1rem;
+  }
+  figure {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  figure img {
+    width: 100%;
+  }
 }
