@@ -84,8 +84,37 @@ figure {
 p {
     margin: 10px;
 }
-footer {
+footer section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #83C05B;
+    color: white;
+    padding-top: 10px;
+    font-size: 14px;
+    justify-content: space-between;
 }
+.logot{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    flex-direction: column;
+}
+
+.phone{
+    color: black;
+    background-color:  #83C05B;
+}
+
+
+
+footer i {
+   
+    
+}
+
+
 
 /* Media query, tablet näkymä */
 
@@ -113,3 +142,4 @@ footer {
     width: 100%;
   }
 }
+
