@@ -23,20 +23,35 @@ nav {
 section {
 
 }
+h1, h2, h3 {
+    background-color: #CBCBCB;
+    font-size: 1.1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
 figure {
 
 }
-#boxes{
+#boxes {
 
 }
-#specials {
-
+.fa-angle-right {
+    float: right;    
 }
-#events {
 
+#specials img {
+    width: 400px;
+    margin: 10px;
+}
+#events img {
+    width: 400px;
+    margin: 10px;
 }
 #news {
 
+}
+p {
+    margin: 10px;
 }
 footer {
     
