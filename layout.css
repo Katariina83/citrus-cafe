@@ -105,13 +105,7 @@ p{
 .phone{
     color: black;
     background-color:  #83C05B;
-}
-
-
-
-footer i {
-   
-    
+    margin-top: -1rem;
 }
 
 /* Media query, tablet näkymä */
